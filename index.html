@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>火山田 kazanda · 招募私信卡片</title>
+<style>
+:root {--ink:#172d36;--muted:#4e626b;--accent:#09675f;--accent-hover:#07524c;--line:#d7e1e4;--ground:#f1f6f7;--tint:#e4f1ef;--white:#fff; font-family:"Segoe UI","Microsoft YaHei","Hiragino Sans",sans-serif;color:var(--ink);background:var(--ground);color-scheme:light;}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit}button,select{min-height:44px}button{cursor:pointer}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #167dba;outline-offset:4px}::selection{background:#bce4df;color:#102e29}html{scrollbar-color:#9aafb5 var(--ground)}
+.top{background:#e3eeef;border-bottom:1px solid var(--line)}.top-inner,main{max-width:900px;margin:auto;padding:32px 28px}.brand{font-size:18px;font-weight:700;color:var(--accent);margin:0 0 16px}h1{font-size:30px;line-height:1.3;margin:0 0 12px;letter-spacing:-.02em}.intro{font-size:16px;color:var(--muted);line-height:1.7;margin:0;max-width:46em}
+main{padding-top:24px}.controls{margin-bottom:28px}.roles{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.role{border:1px solid #91adb2;background:var(--white);color:var(--ink);border-radius:7px;padding:10px 22px;font-size:17px;font-weight:600}.role[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--white)}.role:hover{border-color:var(--accent)}.filter-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.filter-row label{color:var(--muted);font-size:15px}select{background:var(--white);color:var(--ink);border:1px solid #91adb2;border-radius:6px;padding:8px 32px 8px 12px;max-width:100%}#count{margin-left:auto;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.message{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:26px 28px;margin-bottom:24px}.message-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.code{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--muted);margin-right:12px}.tag{font-size:13px;color:#305951;background:var(--tint);padding:4px 8px;border-radius:4px;display:inline-block}h2{font-size:19px;line-height:1.5;margin:10px 0 0;font-weight:650}.copy{flex-shrink:0;background:var(--accent);border:1px solid var(--accent);border-radius:6px;color:var(--white);padding:9px 16px;font-weight:600;transition:background .15s ease-out}.copy:hover{background:var(--accent-hover)}.copy:disabled{opacity:.8;cursor:default}.jp{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN","Meiryo",sans-serif;font-size:19px;line-height:1.95;letter-spacing:.015em;margin:22px 0 24px;overflow-wrap:anywhere}.translation{border-top:1px solid var(--line);padding-top:18px;color:var(--muted)}.translation-label{font-size:13px;font-weight:600}.translation p{font-size:16px;line-height:1.85;margin:8px 0 0;overflow-wrap:anywhere}.message[hidden]{display:none}footer{color:var(--muted);font-size:13px;line-height:1.7;padding:0 0 32px}#status{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:12px 20px;border-radius:7px;max-width:calc(100% - 32px);font-size:15px;box-shadow:0 4px 18px #172d3626;pointer-events:none;z-index:2}#status:empty{display:none}.fallback{margin-top:16px;color:#8e291f;font-size:15px;line-height:1.6}
+@media(max-width:600px){.top-inner,main{padding:24px 16px}h1{font-size:26px}.brand{font-size:16px;margin-bottom:12px}.intro{font-size:15px}.role{flex:1;padding:10px 12px}.message{padding:20px 18px;margin-bottom:20px}.message-head{gap:10px}.copy{padding:8px 12px;font-size:14px}h2{font-size:18px}.jp{font-size:18px;line-height:1.95;margin:20px 0}.translation p{font-size:15px}#count{width:100%;margin-left:0}.filter-row{gap:8px}.tag{font-size:12px}.code{margin-right:6px}.controls{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+<div class="top"><div class="top-inner"><p class="brand">火山田 · kazanda</p><h1>挑一条，复制日语就能用。</h1><p class="intro">先选团播或带货，再按卖点挑选。每条上方是日语原文，下方是中文意思；复制按钮只复制日语。</p></div></div>
+<main><div class="controls"><nav class="roles" aria-label="选择招募岗位"><button type="button" class="role" data-role="团播主播" aria-pressed="true">团播招募 · 20条</button><button type="button" class="role" data-role="带货主播" aria-pressed="false">带货招募 · 20条</button></nav><div class="filter-row"><label for="direction">想突出什么</label><select id="direction"><option value="">全部卖点</option></select><span id="count" role="status" aria-live="polite"></span></div></div>
+<section aria-label="私信文案"><article class="message" data-role="团播主播" data-direction="收入明确" id="T-A1">
+  <header class="message-head"><div><span class="code">T-A1</span><span class="tag">收入明确</span><h2>培训及正式直播两档时薪</h2></div><button class="copy" type="button" aria-label="复制 T-A1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブの出演者を募集しています。時給は研修中1,280円、正式なライブ配信中は1,500円です。未経験の方も応募できます。詳しい仕事内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播的出镜成员。培训时薪1,280日元，正式直播期间时薪1,500日元，无经验者也可应聘。可以发给你具体工作介绍吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="收入明确" id="T-A2">
+  <header class="message-head"><div><span class="code">T-A2</span><span class="tag">收入明确</span><h2>没有打赏仍付直播时薪</h2></div><button class="copy" type="button" aria-label="复制 T-A2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京のスタジオで、何人かで歌ったり踊ったり、視聴者さんと話すTikTokライブのメンバーを探しています。ギフトが入らない日も、正式な配信中は時給1,500円をお支払いします。研修中は1,280円です。ライブのお仕事に興味はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在为东京场地的TikTok直播寻找多人一起唱歌、跳舞、与观众聊天的成员。即使没有收到打赏，正式直播期间仍支付时薪1,500日元，培训时薪1,280日元。你对直播工作有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="收入明确" id="T-A3">
+  <header class="message-head"><div><span class="code">T-A3</span><span class="tag">收入明确</span><h2>付薪学习舞蹈</h2></div><button class="copy" type="button" aria-label="复制 T-A3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして、火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブに出演する方を募集しています。未経験の方にはダンスの先生が基礎から教えます。研修中も時給1,280円、正式な配信中は1,500円です。まずは仕事内容を聞いてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播的出镜人员。无经验者由舞蹈老师从基础教起。培训也有时薪1,280日元，正式直播期间为1,500日元。要不要先听听工作内容？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="收入明确" id="T-A4">
+  <header class="message-head"><div><span class="code">T-A4</span><span class="tag">收入明确</span><h2>先了解报酬再决定</h2></div><button class="copy" type="button" aria-label="复制 T-A4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">火山田（kazanda）の採用担当です。突然のご連絡失礼します。東京で、グループで歌やダンス、トークをするTikTokライブの出演者を募集しています。ギフトがなくても、正式な配信中の時給1,500円をお支払いします。研修中は1,280円で、配信が初めての方も応募できます。詳しい条件をご案内してもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">我是火山田（kazanda）的招聘负责人，冒昧联系。正在东京招募TikTok多人唱跳、聊天直播的出镜成员。即使没有打赏，正式直播期间也支付基础时薪1,500日元；培训时薪1,280日元，没有直播经验也可应聘。可以向你介绍具体条件吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="收入明确" id="T-A5">
+  <header class="message-head"><div><span class="code">T-A5</span><span class="tag">收入明确</span><h2>明确基础报酬</h2></div><button class="copy" type="button" aria-label="复制 T-A5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。東京でTikTokのグループライブに出る方を募集しています。内容は歌やダンス、視聴者さんとの会話です。ライブ経験は必要ありません。時給は研修中1,280円、正式な配信中1,500円。ギフトがなくても配信中の時給はお支払いします。気になったら、お返事ください。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人直播出镜成员，内容是唱歌、跳舞和与观众聊天，不需要直播经验。培训时薪1,280日元，正式直播时薪1,500日元；没有打赏也支付直播时薪。感兴趣的话可以回复。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="零基础可尝试" id="T-B1">
+  <header class="message-head"><div><span class="code">T-B1</span><span class="tag">零基础可尝试</span><h2>不用先在外学会舞蹈</h2></div><button class="copy" type="button" aria-label="复制 T-B1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、グループで歌やダンス、トークをするTikTokライブのメンバーを募集しています。ライブ経験はなくても応募できます。ダンスは基礎から教えるので、先にスクールなどで習う必要もありません。仕事内容をご説明してもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员，没有直播经验也可应聘。舞蹈从基础教，不需要先去培训班学会。可以向你说明工作内容吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="零基础可尝试" id="T-B2">
+  <header class="message-head"><div><span class="code">T-B2</span><span class="tag">零基础可尝试</span><h2>从未跳舞也能应聘</h2></div><button class="copy" type="button" aria-label="复制 T-B2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京のスタジオで、歌やダンス、トークをするTikTokのグループライブに出演する方を探しています。踊ったことがない方も、先生が一から教えます。未経験から始めたい方に、仕事内容をご案内しています。お話を聞いてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在寻找在东京场地出演TikTok多人唱跳、聊天直播的人。没跳过舞也有老师从头教。我们向想从零开始的人介绍这份工作，要不要先听听？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="零基础可尝试" id="T-B3">
+  <header class="message-head"><div><span class="code">T-B3</span><span class="tag">零基础可尝试</span><h2>从唱歌聊天兴趣切入</h2></div><button class="copy" type="button" aria-label="复制 T-B3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは、火山田（kazanda）の採用担当です。東京でTikTokライブの出演者を募集しています。何人かで歌ったり踊ったり、コメントを読んで話す配信です。特別な資格やライブ経験は必要ありません。カラオケや人と話すことが好きな方も歓迎です。詳しい内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播出镜人员，形式是多人唱歌、跳舞、读评论聊天。不需要特别资格或直播经验，也欢迎喜欢卡拉OK或与人交谈的人。可以发给你具体介绍吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="零基础可尝试" id="T-B4">
+  <header class="message-head"><div><span class="code">T-B4</span><span class="tag">零基础可尝试</span><h2>无出镜经验可了解</h2></div><button class="copy" type="button" aria-label="复制 T-B4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブのメンバーを募集しています。カメラの前に立ったことがなくても応募できます。話し方や見せ方は研修で教えます。応募料・研修費はかかりません。興味があれば、仕事内容をご案内します。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员。没有出镜经历也可应聘，说话方式和镜头表现会在培训中指导。不收报名费或培训费，感兴趣的话可以介绍工作内容。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="零基础可尝试" id="T-B5">
+  <header class="message-head"><div><span class="code">T-B5</span><span class="tag">零基础可尝试</span><h2>没信心也可了解</h2></div><button class="copy" type="button" aria-label="复制 T-B5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブの出演者を募集しています。歌やダンスに自信がない方も応募できます。ダンスの先生による指導があるので、基礎から学べます。仕事内容を聞いてみたいと思われたら、お返事ください。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播的出镜人员。对唱歌跳舞没信心也可应聘，有舞蹈老师指导，可以从基础学起。想了解工作内容的话可以回复。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="培养与表演" id="T-C1">
+  <header class="message-head"><div><span class="code">T-C1</span><span class="tag">培养与表演</span><h2>舞蹈与镜头表现指导</h2></div><button class="copy" type="button" aria-label="复制 T-C1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして、火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブのメンバーを募集しています。ダンスの基礎に加えて、話し方やカメラの前での表現も教えます。未経験でも応募できます。人前で表現する仕事に興味はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员。除了舞蹈基础，也教说话方式和镜头表现，无经验也可应聘。你对公开表演和表达类工作有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="培养与表演" id="T-C2">
+  <header class="message-head"><div><span class="code">T-C2</span><span class="tag">培养与表演</span><h2>把唱跳兴趣用在工作</h2></div><button class="copy" type="button" aria-label="复制 T-C2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のご連絡失礼します。火山田（kazanda）の採用担当です。歌やダンスを、TikTokのグループライブで仕事にしてみませんか。東京のスタジオで、何人かで歌ったり踊ったり、視聴者さんと会話する内容です。未経験の方には先生の指導もあります。詳しい仕事内容をお伝えできます。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然联系打扰了，我是火山田（kazanda）的招聘负责人。想不想把唱歌跳舞用在TikTok多人直播这份工作中？在东京的场地，多人一起唱歌、跳舞、与观众聊天，无经验者也有老师指导。可以向你介绍具体工作内容。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="培养与表演" id="T-C3">
+  <header class="message-head"><div><span class="code">T-C3</span><span class="tag">培养与表演</span><h2>付薪学习表达</h2></div><button class="copy" type="button" aria-label="复制 T-C3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブのメンバーを募集しています。ダンスは先生が一から教え、話し方や受け答えも学べます。研修中も時給1,280円です。表現する仕事に興味があれば、詳しい内容をお送りします。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员。舞蹈有老师从头教，也能学习说话和应答，培训期间也有时薪1,280日元。对表演表达类工作有兴趣的话，可以发给你具体介绍。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="培养与表演" id="T-C4">
+  <header class="message-head"><div><span class="code">T-C4</span><span class="tag">培养与表演</span><h2>一起完成一场直播</h2></div><button class="copy" type="button" aria-label="复制 T-C4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京でTikTokのグループライブに出る方を募集しています。何人かで歌やダンス、トークをするので、メンバー同士のやり取りもあるお仕事です。ライブ経験は必要ありません。みんなで一つのライブを作ることに興味があれば、詳しくご案内します。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人直播出镜人员，多人唱歌、跳舞、聊天，工作中也有成员之间的互动。不需要直播经验。如果对大家配合完成一场直播有兴趣，可以详细介绍。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="培养与表演" id="T-C5">
+  <header class="message-head"><div><span class="code">T-C5</span><span class="tag">培养与表演</span><h2>从看直播到出镜尝试</h2></div><button class="copy" type="button" aria-label="复制 T-C5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブのメンバーを募集しています。衣装はこちらで用意し、ダンスや話し方も教えます。未経験でも応募できます。ライブを見るのが好きで、出演もしてみたい方へ、お仕事のご案内です。興味はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员。服装由我们准备，也教舞蹈和说话方式，无经验也可应聘。想向喜欢看直播、也想尝试出镜的人介绍这份工作，你有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="机构实力／时间适配" id="T-D1">
+  <header class="message-head"><div><span class="code">T-D1</span><span class="tag">机构实力／时间适配</span><h2>先看真实场地与资料</h2></div><button class="copy" type="button" aria-label="复制 T-D1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブの出演者を募集しています。事務所の施設は約2,000㎡で、配信機材や衣装はこちらで用意しています。仕事の様子が分かる資料もあります。ご覧になりたい場合は、お返事ください。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播的出镜人员。机构场地约2,000平方米，直播设备和服装由我们准备，也有介绍工作情景的资料。想看的话可以回复。</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="机构实力／时间适配" id="T-D2">
+  <header class="message-head"><div><span class="code">T-D2</span><span class="tag">机构实力／时间适配</span><h2>不用自购服装设备</h2></div><button class="copy" type="button" aria-label="复制 T-D2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のご連絡失礼します。火山田（kazanda）の採用担当です。東京の約2,000㎡の施設で、TikTokのグループライブをしています。歌やダンス、トークに出演するメンバーを募集中です。衣装と配信用の機材は事務所が用意します。未経験でも応募できます。仕事内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然联系打扰了，我是火山田（kazanda）的招聘负责人。我们在东京约2,000平方米的机构场地开展TikTok多人直播，正在招募唱歌、跳舞、聊天的出镜成员。服装和直播设备由机构准备，无经验也可应聘。可以发给你工作介绍吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="机构实力／时间适配" id="T-D3">
+  <header class="message-head"><div><span class="code">T-D3</span><span class="tag">机构实力／时间适配</span><h2>兼职时段先匹配</h2></div><button class="copy" type="button" aria-label="复制 T-D3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは、火山田（kazanda）の採用担当です。東京で、歌やダンス、トークをするTikTokのグループライブのメンバーを募集しています。アルバイトも可能で、週3日以上・1日5時間から。曜日や時間帯は相談できます。ご希望の時間に合うか、お話ししてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱跳、聊天直播成员，也可以兼职。每周至少3天、每天5小时起，星期和时间段可协商。要不要聊聊有没有符合你可工作时间的安排？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="机构实力／时间适配" id="T-D4">
+  <header class="message-head"><div><span class="code">T-D4</span><span class="tag">机构实力／时间适配</span><h2>白天晚间都可谈</h2></div><button class="copy" type="button" aria-label="复制 T-D4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、何人かで歌ったり踊ったり、コメントを読んで話すTikTokライブの出演者を募集しています。昼・夜どちらの時間帯も相談できます。勤務は週3日以上・1日5時間からで、未経験でも応募できます。働ける時間を伺ってもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人唱歌、跳舞、读评论聊天的直播出镜人员。白天、晚间时段均可协商，每周至少3天、每天5小时起，无经验也可应聘。方便说说你能工作的时间吗？</p></div>
+</article>
+<article class="message" data-role="团播主播" data-direction="机构实力／时间适配" id="T-D5">
+  <header class="message-head"><div><span class="code">T-D5</span><span class="tag">机构实力／时间适配</span><h2>保留本职工作</h2></div><button class="copy" type="button" aria-label="复制 T-D5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京でTikTokのグループライブに出るメンバーを募集しています。歌やダンス、トークが中心です。ほかの仕事との掛け持ちも相談でき、専属契約は求めていません。週3日以上・1日5時間から、時間帯は相談可能です。副業として検討してみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok多人直播成员，以唱歌、跳舞、聊天为主。可以商量与其他工作兼顾，不要求独家合约。每周至少3天、每天5小时起，时间段可协商。要不要考虑作为一份副业？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="薪资与要求" id="S-A1">
+  <header class="message-head"><div><span class="code">S-A1</span><span class="tag">薪资与要求</span><h2>时薪与能力要求一起看</h2></div><button class="copy" type="button" aria-label="复制 S-A1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、TikTokライブで商品を紹介・販売する方を募集しています。時給は2,000〜3,000円。販売・店頭での商品案内の経験があり、商品の良さをわかりやすく説明できる方を探しています。カメラの前でも緊張しすぎず、自然に、スムーズに話せることが条件です。ご興味はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募通过TikTok直播介绍、销售商品的人员，时薪2,000～3,000日元。我们希望你有销售、门店导购经验，能清楚地讲解产品的优点，并且面对镜头不过度紧张，表达自然、流畅。你有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="薪资与要求" id="S-A2">
+  <header class="message-head"><div><span class="code">S-A2</span><span class="tag">薪资与要求</span><h2>销售经验用在直播中</h2></div><button class="copy" type="button" aria-label="复制 S-A2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。販売や店頭での商品案内の経験を、TikTokライブで活かしてみませんか？東京で、商品紹介を担当する方を募集しています。時給は2,000〜3,000円です。商品の特徴やおすすめする理由を、自分の言葉でわかりやすく伝えられる方が対象です。カメラに向かっても落ち着いて、話をスムーズに進められる方を探しています。詳しい仕事内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。想不想把销售、门店导购的经验用在TikTok直播中？我们正在东京招募负责商品介绍的人员，时薪2,000～3,000日元。希望你能用自己的话，清楚地讲出产品特点和推荐理由，面对镜头也能从容、流畅地讲解。可以发给你具体工作介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="薪资与要求" id="S-A3">
+  <header class="message-head"><div><span class="code">S-A3</span><span class="tag">薪资与要求</span><h2>把产品到底好在哪讲明白</h2></div><button class="copy" type="button" aria-label="复制 S-A3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。東京でTikTokライブの販売スタッフを募集しています。探しているのは、販売・商品案内の経験があり、「この商品のどこが良いのか」を相手にわかりやすく伝えられる方です。カメラの前でも物おじせず、はっきりと、流れよく説明できる方にお願いしたいと考えています。時給は2,000〜3,000円です。お仕事の内容を聞いてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播销售人员。我们想找有销售、导购经验，能够向别人讲清楚“这款产品到底好在哪里”的人。希望你面对镜头不怯场，讲解清晰、连贯。时薪2,000～3,000日元。要不要先了解一下工作内容？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="薪资与要求" id="S-A4">
+  <header class="message-head"><div><span class="code">S-A4</span><span class="tag">薪资与要求</span><h2>明确薪资，寻找有经验的人</h2></div><button class="copy" type="button" aria-label="复制 S-A4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">火山田（kazanda）の採用担当です。東京のTikTokライブで、商品の紹介・販売を担当してくださる方を探しています。時給は2,000〜3,000円です。販売や店頭での商品案内の経験がある方が対象で、商品の強みをわかりやすく説明できることを重視しています。カメラの前でも物おじせず、はっきりとスムーズに話せる方にお願いしたいお仕事です。詳しいご案内をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">我是火山田（kazanda）的招聘负责人。正在东京寻找负责TikTok直播商品介绍、销售的人员，时薪2,000～3,000日元。面向有销售、门店导购经验的人，重视清晰讲解产品优势的能力，也希望你面对镜头不怯场，表达清楚、流畅。可以发给你具体介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="薪资与要求" id="S-A5">
+  <header class="message-head"><div><span class="code">S-A5</span><span class="tag">薪资与要求</span><h2>有经验，也能面对镜头讲解</h2></div><button class="copy" type="button" aria-label="复制 S-A5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。時給2,000〜3,000円で、東京のTikTokライブに出演する販売スタッフを募集しています。販売・商品案内の経験に加えて、商品の魅力を整理して伝えられること、カメラに向かっても落ち着いて流暢に説明できることが条件です。ご興味があれば、仕事内容をご紹介させてください。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在招募在东京出演TikTok直播的销售人员，时薪2,000～3,000日元。要求有销售、导购经验，能有条理地讲清产品吸引力，面对镜头也能从容、流畅地讲解。感兴趣的话，请让我向你介绍工作内容。</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="销售导购经验" id="S-B1">
+  <header class="message-head"><div><span class="code">S-B1</span><span class="tag">销售导购经验</span><h2>从门店介绍走到镜头前</h2></div><button class="copy" type="button" aria-label="复制 S-B1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。店頭でお客様に商品をおすすめしてきた経験を、ライブ配信で活かしてみませんか？東京でTikTokライブの販売担当を募集しています。時給は2,000〜3,000円。販売・商品案内の経験があり、商品の良さをわかりやすく伝えられる方が対象です。カメラの前でも緊張しすぎず、自然な流れで説明できる方を探しています。お話を聞いてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。想不想把在门店向顾客推荐商品的经验用在直播中？我们正在东京招募TikTok直播销售人员，时薪2,000～3,000日元。要求有销售、导购经验，能清晰传达产品优点，面对镜头不过度紧张，讲解自然连贯。要不要了解一下？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="销售导购经验" id="S-B2">
+  <header class="message-head"><div><span class="code">S-B2</span><span class="tag">销售导购经验</span><h2>把推荐理由说清楚</h2></div><button class="copy" type="button" aria-label="复制 S-B2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のご連絡失礼します。火山田（kazanda）の採用担当です。東京で、TikTokライブの商品紹介スタッフを募集しています。販売や店頭での商品案内を経験し、お客様におすすめする理由をわかりやすく説明できる方にお願いしたいと考えています。カメラの前でも落ち着いて、言葉がスムーズに出てくる方が対象です。時給は2,000〜3,000円。詳しい内容をご案内してもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">冒昧联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播商品介绍人员。希望你有销售、门店导购经验，能向顾客清楚说明推荐产品的理由，面对镜头也能从容、流畅地表达。时薪2,000～3,000日元。可以向你介绍具体内容吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="销售导购经验" id="S-B3">
+  <header class="message-head"><div><span class="code">S-B3</span><span class="tag">销售导购经验</span><h2>会销售，也会清晰表达</h2></div><button class="copy" type="button" aria-label="复制 S-B3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは、火山田（kazanda）の採用担当です。販売と商品案内の経験があり、商品のセールスポイントを自分の言葉で伝えられる方を探しています。お仕事は東京でのTikTokライブ販売で、時給は2,000〜3,000円です。カメラに向かっても物おじせず、聞き取りやすく、スムーズに説明できることが条件です。ご関心はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。我们想找有销售、导购经验，能够用自己的话讲出产品卖点的人。工作是在东京进行TikTok直播销售，时薪2,000～3,000日元。要求面对镜头不怯场，讲解清楚易懂、流畅。你有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="销售导购经验" id="S-B4">
+  <header class="message-head"><div><span class="code">S-B4</span><span class="tag">销售导购经验</span><h2>让销售经验有新的用处</h2></div><button class="copy" type="button" aria-label="复制 S-B4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。販売や店頭での商品案内を経験された方に、東京でのTikTokライブ販売のお仕事をご案内しています。時給は2,000〜3,000円です。商品の魅力を相手に伝わる言葉で説明でき、カメラの前でも落ち着いて、話を途切れさせずに進められる方を募集しています。詳しいお話をしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在向有销售、门店导购经验的人介绍东京的TikTok直播销售工作，时薪2,000～3,000日元。希望你能用对方听得懂的话讲清产品吸引力，面对镜头也能从容、连贯地表达。可以向你详细介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="销售导购经验" id="S-B5">
+  <header class="message-head"><div><span class="code">S-B5</span><span class="tag">销售导购经验</span><h2>从向顾客讲产品的经验切入</h2></div><button class="copy" type="button" aria-label="复制 S-B5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">火山田（kazanda）の採用担当です。突然のDM失礼します。東京でTikTokライブの販売担当を募集しています。販売・商品案内の経験があり、商品の良い点を具体的に説明できる方を探しています。カメラの前でも自然に話せて、説明がわかりやすくスムーズなことを重視しています。時給は2,000〜3,000円です。仕事内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">我是火山田（kazanda）的招聘负责人，突然发私信打扰了。正在东京招募TikTok直播销售人员，希望你有销售、导购经验，能具体讲清产品的优点。我们重视面对镜头自然、不怯场，以及讲解清楚、流畅的能力。时薪2,000～3,000日元。可以发给你工作介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="产品卖点讲解" id="S-C1">
+  <header class="message-head"><div><span class="code">S-C1</span><span class="tag">产品卖点讲解</span><h2>用自己的话讲出产品优势</h2></div><button class="copy" type="button" aria-label="复制 S-C1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。東京で、TikTokライブで商品を紹介する方を募集しています。商品の強みを理解し、自分の言葉でわかりやすく伝えられる方を探しています。販売・店頭での商品案内の経験があり、カメラに向かっても物おじせず、スムーズに話せることが条件です。時給は2,000〜3,000円です。ご興味があれば、詳しい内容をご案内します。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。正在东京招募通过TikTok直播介绍商品的人员。希望你能理解产品优势，用自己的话清楚传达。要求有销售、门店导购经验，面对镜头不怯场、表达流畅。时薪2,000～3,000日元。感兴趣的话，可以向你介绍具体内容。</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="产品卖点讲解" id="S-C2">
+  <header class="message-head"><div><span class="code">S-C2</span><span class="tag">产品卖点讲解</span><h2>讲清特点和吸引力</h2></div><button class="copy" type="button" aria-label="复制 S-C2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。東京のTikTokライブで、商品の特徴や魅力を視聴者に伝えるお仕事に興味はありませんか？時給は2,000〜3,000円です。販売や商品案内の経験があり、商品の売りになるポイントをわかりやすく説明できる方を募集しています。カメラの前でも緊張しすぎず、はっきりと流暢に話せる方が対象です。詳しい仕事内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。你对在东京通过TikTok直播向观众介绍产品特点和吸引力的工作有兴趣吗？时薪2,000～3,000日元。我们希望你有销售、导购经验，能清楚讲解产品卖点，面对镜头不过度紧张，表达清晰、流畅。可以发给你具体工作介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="产品卖点讲解" id="S-C3">
+  <header class="message-head"><div><span class="code">S-C3</span><span class="tag">产品卖点讲解</span><h2>让观众听得懂推荐理由</h2></div><button class="copy" type="button" aria-label="复制 S-C3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のDM失礼します。火山田（kazanda）の採用担当です。東京でTikTokライブの商品紹介・販売を担当する方を探しています。販売・商品案内の経験があり、商品のおすすめポイントを聞き手に伝わるように説明できる方が対象です。カメラの前でも落ち着いて、わかりやすく滑らかに話せることを重視しています。時給は2,000〜3,000円です。ご関心があれば、お返事ください。</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">突然发私信打扰了，我是火山田（kazanda）的招聘负责人。正在东京寻找负责TikTok直播商品介绍、销售的人员。要求有销售、导购经验，能把产品值得推荐的地方讲得让人听懂，面对镜头也能从容、清晰、流畅地表达。时薪2,000～3,000日元。感兴趣的话可以回复。</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="产品卖点讲解" id="S-C4">
+  <header class="message-head"><div><span class="code">S-C4</span><span class="tag">产品卖点讲解</span><h2>有条理地讲清产品卖点</h2></div><button class="copy" type="button" aria-label="复制 S-C4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">火山田（kazanda）の採用担当です。東京で、TikTokライブの販売スタッフを募集しています。商品のセールスポイントを整理し、順序立ててわかりやすく話せる方を探しています。販売や店頭での商品案内の経験と、カメラの前でも物おじせずにスムーズに説明できることが条件です。時給は2,000〜3,000円。まずは仕事内容をご紹介してもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播销售人员，希望你能梳理产品卖点，有条理地讲解清楚。要求有销售、门店导购经验，面对镜头不怯场，讲解流畅。时薪2,000～3,000日元。可以先向你介绍工作内容吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="产品卖点讲解" id="S-C5">
+  <header class="message-head"><div><span class="code">S-C5</span><span class="tag">产品卖点讲解</span><h2>把商品介绍讲得清楚易懂</h2></div><button class="copy" type="button" aria-label="复制 S-C5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは。火山田（kazanda）の採用担当です。東京でTikTokライブに出演し、商品の紹介・販売をしてくださる方を募集しています。販売・商品案内の経験があり、商品の良さをわかりやすい言葉で説明できる方にお願いしたいお仕事です。カメラに向かっても自然で、話し方が明瞭かつスムーズな方を探しています。時給は2,000〜3,000円です。お仕事内容を聞いてみませんか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京招募出演TikTok直播、负责商品介绍和销售的人员。希望你有销售、导购经验，能用容易理解的话讲清产品优点，面对镜头自然、不怯场，表达清晰流畅。时薪2,000～3,000日元。要不要了解一下工作内容？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="镜头表达能力" id="S-D1">
+  <header class="message-head"><div><span class="code">S-D1</span><span class="tag">镜头表达能力</span><h2>面对镜头也能自然讲解</h2></div><button class="copy" type="button" aria-label="复制 S-D1 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。カメラの前でも普段の接客のように、落ち着いて商品を紹介できる方を探しています。東京でのTikTokライブ販売のお仕事で、時給は2,000〜3,000円です。販売・店頭での商品案内の経験があり、商品の魅力をわかりやすく、流れよく説明できることが条件です。詳しいご案内をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。我们想找面对镜头也能像平时接待顾客一样，从容介绍商品的人。工作是在东京进行TikTok直播销售，时薪2,000～3,000日元。要求有销售、门店导购经验，能够清晰、连贯地讲解产品吸引力。可以发给你具体介绍吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="镜头表达能力" id="S-D2">
+  <header class="message-head"><div><span class="code">S-D2</span><span class="tag">镜头表达能力</span><h2>不怯场，讲得清楚流畅</h2></div><button class="copy" type="button" aria-label="复制 S-D2 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">突然のご連絡失礼します。火山田（kazanda）の採用担当です。東京でTikTokライブの販売担当を募集しています。販売・商品案内の経験があり、カメラに向かっても物おじせず話せる方を探しています。商品の特徴や良い点を、はっきりとスムーズに説明できることが条件です。時給は2,000〜3,000円。ご興味はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">冒昧联系，我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播销售人员，希望你有销售、导购经验，面对镜头也能不怯场地表达。要求能清晰、流畅地讲解产品特点和优点。时薪2,000～3,000日元。你有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="镜头表达能力" id="S-D3">
+  <header class="message-head"><div><span class="code">S-D3</span><span class="tag">镜头表达能力</span><h2>从容表达产品的吸引力</h2></div><button class="copy" type="button" aria-label="复制 S-D3 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">こんにちは、火山田（kazanda）の採用担当です。東京で、TikTokライブの商品紹介スタッフを探しています。時給は2,000〜3,000円です。販売や店頭での商品案内の経験があり、商品の魅力をわかりやすく伝えられる方が対象です。カメラの前でも落ち着いた話し方で、説明をスムーズに進められる方を募集しています。詳しい仕事内容をご案内してもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">你好，我是火山田（kazanda）的招聘负责人。正在东京寻找TikTok直播商品介绍人员，时薪2,000～3,000日元。要求有销售、门店导购经验，能清楚传达产品吸引力，面对镜头也能从容表达、流畅讲解。可以向你介绍具体工作内容吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="镜头表达能力" id="S-D4">
+  <header class="message-head"><div><span class="code">S-D4</span><span class="tag">镜头表达能力</span><h2>镜头前讲解自然连贯</h2></div><button class="copy" type="button" aria-label="复制 S-D4 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">火山田（kazanda）の採用担当です。東京でTikTokライブの販売スタッフを募集しています。販売・商品案内の経験をお持ちで、カメラの前でも自然に話せる方にお願いしたいと考えています。商品の売りになるポイントを、聞き取りやすく、途切れずに説明できることが条件です。時給は2,000〜3,000円です。お仕事にご関心はありますか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">我是火山田（kazanda）的招聘负责人。正在东京招募TikTok直播销售人员，希望你有销售、导购经验，面对镜头也能自然、不怯场地表达。要求能把产品卖点讲得清楚易懂、连贯流畅。时薪2,000～3,000日元。你对这份工作有兴趣吗？</p></div>
+</article>
+<article class="message" data-role="带货主播" data-direction="镜头表达能力" id="S-D5">
+  <header class="message-head"><div><span class="code">S-D5</span><span class="tag">镜头表达能力</span><h2>用清晰表达发挥销售能力</h2></div><button class="copy" type="button" aria-label="复制 S-D5 的日语">复制日语</button></header>
+  <p class="jp" lang="ja">はじめまして。火山田（kazanda）の採用担当です。販売・店頭での商品案内の経験を活かし、東京でTikTokライブの販売をしてみませんか？時給は2,000〜3,000円です。商品の良さを自分の言葉でわかりやすく説明でき、カメラに向かっても緊張しすぎず、明瞭でスムーズに話せる方を募集しています。詳しい内容をお送りしてもよろしいですか？</p>
+  <div class="translation"><span class="translation-label">中文意思</span><p lang="zh-CN">初次联系，我是火山田（kazanda）的招聘负责人。想不想发挥销售、门店导购经验，在东京做TikTok直播销售？时薪2,000～3,000日元。我们希望你能用自己的话清楚讲解产品优点，面对镜头不过度紧张，表达清晰、流畅。可以发给你具体介绍吗？</p></div>
+</article></section>
+<noscript><p>浏览器未开启 JavaScript，已显示全部40条。请手动选中日语复制。</p></noscript>
+<footer>共40条精修私信，团播与带货各20条。带货招募已更新为时薪2,000～3,000日元，面向有销售、导购经验及镜头讲解能力的人选；团播文案不变。<br>本地打开即可使用，无需联网；原 Word 文件保留。</footer></main><div id="status" role="status" aria-live="polite"></div>
+<script>
+'use strict';
+const cards = [...document.querySelectorAll('.message')];
+const roles = [...document.querySelectorAll('.role')];
+const direction = document.querySelector('#direction');
+let role = '团播主播';
+let toast;
+function filter() {
+  let count = 0;
+  cards.forEach(card => { card.hidden = card.dataset.role !== role || (direction.value !== '' && card.dataset.direction !== direction.value); if (!card.hidden) count++; });
+  document.querySelector('#count').textContent = '显示 ' + count + ' 条 / 当前岗位共20条';
+}
+function chooseRole(value) {
+  role = value;
+  roles.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.role === role)));
+  direction.replaceChildren(new Option('全部卖点', ''));
+  [...new Set(cards.filter(card => card.dataset.role === role).map(card => card.dataset.direction))].forEach(value => direction.add(new Option(value, value)));
+  filter();
+}
+roles.forEach(button => button.addEventListener('click', () => chooseRole(button.dataset.role)));
+direction.addEventListener('change', filter);
+function notify(text) {
+  clearTimeout(toast);
+  document.querySelector('#status').textContent = text;
+  toast = setTimeout(() => { document.querySelector('#status').textContent = ''; }, 3000);
+}
+function legacyCopy(text) {
+  const field = document.createElement('textarea');
+  field.value = text; field.setAttribute('aria-label', '待复制日语');
+  field.style.cssText = 'position:fixed;top:0;left:-9999px';
+  document.body.append(field); field.select();
+  let ok = false;
+  try { ok = document.execCommand('copy'); } finally { field.remove(); }
+  return ok;
+}
+for (const card of cards) {
+  const button = card.querySelector('.copy');
+  button.addEventListener('click', async () => {
+    const text = card.querySelector('.jp').textContent;
+    button.disabled = true;
+    card.querySelector('.fallback')?.remove();
+    let ok = false;
+    try {
+      try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(text); ok = true; } } catch (_) {}
+      if (!ok) ok = legacyCopy(text);
+      if (ok) { notify(card.id + ' 日语已复制'); }
+      else {
+        const range = document.createRange(); range.selectNodeContents(card.querySelector('.jp'));
+        const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range);
+        const hint = document.createElement('p'); hint.className = 'fallback'; hint.setAttribute('role', 'status');
+        hint.textContent = '浏览器未允许自动复制。已选中日语，请按 Ctrl+C（手机长按后选择复制）。';
+        card.querySelector('.jp').after(hint);
+      }
+    } catch (_) { notify('未能复制，请手动选中上方日语复制。'); }
+    finally { button.disabled = false; button.focus({preventScroll:true}); }
+  });
+}
+chooseRole(role);
+</script></body></html>
